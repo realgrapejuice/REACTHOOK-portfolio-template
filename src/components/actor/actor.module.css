@@ -1,0 +1,111 @@
+.container {
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+}
+
+.imgBox {
+  position: relative;
+  width: 626px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox img {
+  width: 313px;
+  height: 422px;
+}
+
+.imgStyleBox {
+  width: 100%;
+  height: 533px;
+  position: relative;
+}
+.imgLeft {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+}
+
+.imgRight {
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+}
+
+.goDown {
+  animation-name: down;
+  animation-fill-mode: both;
+  animation-duration: 800ms;
+}
+
+.goUp {
+  animation-name: up;
+  animation-fill-mode: both;
+  animation-duration: 800ms;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 79px;
+}
+
+.infoBox .name {
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+.infoBox .role {
+  font-size: 2em;
+  margin-bottom: 3.25rem;
+}
+
+.date {
+  font-size: 1.2em;
+}
+
+.locationBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 296px;
+  right: 0;
+  height: 364px;
+}
+
+.number {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+
+.icon {
+  font-size: 1.2em;
+  color: #19222c;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}

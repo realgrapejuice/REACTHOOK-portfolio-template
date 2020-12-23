@@ -1,0 +1,11 @@
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  color: #19222c;
+  font-family: "Poppins", sans-serif;
+}
