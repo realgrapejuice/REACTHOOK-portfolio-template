@@ -3,7 +3,16 @@
   width: 80px;
 }
 
-.container li {
+.photographer,
+.writer,
+.actor {
   font-size: 0.7em;
   margin-bottom: 0.3em;
+  transition: color 100ms ease-in;
+}
+
+.photographer:hover,
+.writer:hover,
+.actor:hover {
+  color: #f1c40f;
 }

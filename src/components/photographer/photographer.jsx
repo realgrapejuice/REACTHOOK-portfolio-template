@@ -39,7 +39,10 @@ const Photographer = ({ onMenuClick }) => {
           </div>
         </section>
         <section className={styles.infoBox}>
-          <span className={styles.name}>Connor Olson</span>
+          <span className={styles.name}>
+            Connor
+            <br /> Olson
+          </span>
           <span className={styles.role}>Photographer</span>
           <span className={styles.date}>2020.12.17</span>
         </section>

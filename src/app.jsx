@@ -5,7 +5,9 @@ import Photographer from "./components/photographer/photographer";
 import Writer from "./components/writer/writer";
 import Actor from "./components/actor/actor";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Story from "./components/story/story";
+import MystoryPhotographer from "./components/mystory-photographer/mystory-photo";
+import MystoryWriter from "./components/mystory-writer/mystory-writer";
+import MystoryActor from "./components/mystory-actor/mystory-actor";
 
 const App = (props) => {
   const [status, setStatus] = useState(true);
@@ -29,8 +31,15 @@ const App = (props) => {
             <Actor onMenuClick={handleStatus} />
           </div>
         </Route>
-        <Route path="/story">
-          <Story />
+        <Route path="/story/photographer">
+          <MystoryPhotographer />
+        </Route>
+        <Route path="/story/writer">
+          <Nav onNavClick={handleStatus} status={status} />
+          <MystoryWriter onNavClick={handleStatus} status={status} />
+        </Route>
+        <Route path="/story/actor">
+          <MystoryActor />
         </Route>
       </Switch>
     </BrowserRouter>

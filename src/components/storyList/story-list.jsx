@@ -1,11 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./story-list.module.css";
 
-const StoryList = (props) => (
+const StoryList = () => (
   <ol className={styles.container}>
-    <li>Photographer</li>
-    <li>Writer</li>
-    <li>Actor</li>
+    <li>
+      <Link className={styles.photographer} to="/story/photographer">
+        Photographer
+      </Link>
+    </li>
+    <li>
+      <Link className={styles.writer} to="/story/writer">
+        Writer
+      </Link>
+    </li>
+    <li>
+      <Link className={styles.actor} to="/story/actor">
+        Actor
+      </Link>
+    </li>
   </ol>
 );
 
