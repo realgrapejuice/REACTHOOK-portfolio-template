@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AuthorBox from "../authorBox/authorBox";
 import styles from "./actor.module.css";
 
-const Actor = ({ onMenuClick }) => {
+const Actor = () => {
   const [status, setStatus] = useState(false);
 
   const handleTandF = () => {
@@ -18,7 +18,6 @@ const Actor = ({ onMenuClick }) => {
 
   return (
     <section className={styles.container}>
-      <AuthorBox onMenuClick={onMenuClick} />
       <main className={styles.main}>
         <section className={styles.imgBox}>
           <div

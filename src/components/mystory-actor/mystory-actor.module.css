@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 807px;
+  background-image: url("./actor-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 4.5em;
+  font-weight: 600;
+  text-shadow: 0 4px 4px #000000;
+  color: #fff;
+}
+
+.header span {
+  font-size: 3em;
+  font-weight: 600;
+  text-shadow: 0 4px 4px #000000;
+  color: #fff;
+}
+
+.first,
+.second {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 129px 7.5% 0 7.5%;
+}
+
+.textBox h1 {
+  font-size: 2.25em;
+  margin-bottom: 3.25rem;
+}
+
+.textBox p {
+  font-size: 1.5em;
+}
+
+.textBox p:first-of-type {
+  margin-bottom: 2.5rem;
+}
+
+.first {
+  margin-bottom: 129px;
+}
+
+.first .textBox {
+  width: 58.3%;
+}
+
+.first .imgBox {
+  width: 303px;
+}
+
+.first .imgBox img {
+  width: 100%;
+}
+
+.second {
+  margin-bottom: 207px;
+}
+
+.second .textBox {
+  width: 50%;
+}
+
+.second .imgBlock {
+  display: flex;
+  flex-flow: column wrap;
+  width: 600px;
+  height: 400px;
+}
+
+.second .imgBlock li {
+  width: 200px;
+  height: 200px;
+}
+
+.second .imgBlock img {
+  width: 200px;
+  height: 200px;
+}

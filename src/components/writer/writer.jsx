@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AuthorBox from "../authorBox/authorBox";
 import styles from "./writer.module.css";
 
-const Writer = ({ onMenuClick }) => {
+const Writer = () => {
   const [status, setStatus] = useState(false);
 
   const handleTandF = () => {
@@ -18,7 +18,6 @@ const Writer = ({ onMenuClick }) => {
 
   return (
     <section className={styles.container}>
-      <AuthorBox onMenuClick={onMenuClick} />
       <main className={styles.main}>
         <section className={styles.imgBox}>
           <div

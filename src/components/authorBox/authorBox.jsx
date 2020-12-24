@@ -6,11 +6,19 @@ const AuthorBox = ({ onMenuClick }) => {
     onMenuClick();
   };
 
+  const pathName = window.location.pathname.split("/");
+  const authorStyle =
+    pathName[1] === "story" ? `${styles.authorStory}` : `${styles.authorHome}`;
+  const menuBtnStyle =
+    pathName[1] === "story"
+      ? `${styles.menuBtnStory}`
+      : `${styles.menuBtnHome}`;
+
   return (
     <header className={styles.header}>
-      <h1 className={styles.author}>Sarah Ondana</h1>
+      <h1 className={`${authorStyle}`}>Sarah Ondana</h1>
       <button
-        className={styles.menuBtn}
+        className={`${menuBtnStyle}`}
         type="button"
         onClick={handleMenuClick}
       >
