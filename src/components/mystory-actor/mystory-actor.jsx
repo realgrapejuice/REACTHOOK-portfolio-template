@@ -50,22 +50,22 @@ const MystoryActor = () => (
         </div>
         <ul className={styles.imgBlock}>
           <li>
-            <img src="../img/actor/actor-block-img1.jpg" alt="block-image-1" />
+            <img src="../img/actor/actor-block-img1.jpg" alt="block1" />
           </li>
           <li>
-            <img src="../img/actor/actor-block-img2.jpg" alt="block-image-2" />
+            <img src="../img/actor/actor-block-img2.jpg" alt="block2" />
           </li>
           <li>
-            <img src="../img/actor/actor-block-img3.jpg" alt="block-image-3" />
+            <img src="../img/actor/actor-block-img3.jpg" alt="block3" />
           </li>
           <li>
-            <img src="../img/actor/actor-block-img4.jpg" alt="block-image-4" />
+            <img src="../img/actor/actor-block-img4.jpg" alt="block4" />
           </li>
           <li>
-            <img src="../img/actor/actor-block-img5.jpg" alt="block-image-5" />
+            <img src="../img/actor/actor-block-img5.jpg" alt="block5" />
           </li>
           <li>
-            <img src="../img/actor/actor-block-img6.jpg" alt="block-image-6" />
+            <img src="../img/actor/actor-block-img6.jpg" alt="block6" />
           </li>
         </ul>
       </section>

@@ -50,22 +50,22 @@ const MystoryPhotographer = () => (
         </div>
         <ul className={styles.imgBlock}>
           <li>
-            <img src="../img/photographer/block-img1.jpg" alt="block-image-1" />
+            <img src="../img/photographer/block-img1.jpg" alt="block-1" />
           </li>
           <li>
-            <img src="../img/photographer/block-img2.jpg" alt="block-image-2" />
+            <img src="../img/photographer/block-img2.jpg" alt="block-2" />
           </li>
           <li>
-            <img src="../img/photographer/block-img3.jpg" alt="block-image-3" />
+            <img src="../img/photographer/block-img3.jpg" alt="block-3" />
           </li>
           <li>
-            <img src="../img/photographer/block-img4.jpg" alt="block-image-4" />
+            <img src="../img/photographer/block-img4.jpg" alt="block-4" />
           </li>
           <li>
-            <img src="../img/photographer/block-img5.jpg" alt="block-image-5" />
+            <img src="../img/photographer/block-img5.jpg" alt="block-5" />
           </li>
           <li>
-            <img src="../img/photographer/block-img6.jpg" alt="block-image-6" />
+            <img src="../img/photographer/block-img6.jpg" alt="block-6" />
           </li>
         </ul>
       </section>

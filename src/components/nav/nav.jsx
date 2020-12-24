@@ -39,13 +39,13 @@ const Nav = ({ onNavClick, status }) => {
         <dd className={styles.desc}>pineapple@gmall.com</dd>
         <dt className={styles.category}>SNS</dt>
         <dd className={styles.icon}>
-          <a href="#">
+          <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
             <i className="fab fa-facebook-f"></i>
           </a>
         </dd>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AuthorBox from "../authorBox/authorBox";
 import styles from "./actor.module.css";
 
 const Actor = () => {
