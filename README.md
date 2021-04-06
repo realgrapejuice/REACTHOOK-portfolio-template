@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 리엑트 포트폴리오 웹사이트 탬플릿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 0. 목표로 삼은 부분
 
-## Available Scripts
+- 리엑트 훅을 이용해 기본적인 웹사이트 빌드
+- 리엑트 라우터를 활용한 간단한 페이지 라우팅 
+- 리엑트에 익숙해지기
+- POSTCSS를 활용한 CSS의 모듈화
 
-In the project directory, you can run:
+### 1. 특징 및 기능
 
-### `yarn start`
+- 리엑트 훅을 이용해서 기본적인 웹사이트를 구성함
+- 컴포넌트의 재사용으로 코드의 양을 줄일 수 있는 리엑트의 장점을 활용하려고 노력함
+- 리엑트 라우터를 이용해서 싱글 페이지 웹사이트지만 라우팅이 되도록 구현함
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 2. 사용 스택
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+이 프로젝트는 **JSX**, **POSTCSS**, **REACT-HOOK**, **REACT-ROUTER**를 사용하여 작업했습니다.
 
-### `yarn test`
+### 3. 프로젝트 스크린샷
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 3.1 홈 화면 스크린샷
 
-### `yarn build`
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66715905/113652554-f0a97980-96ce-11eb-9ef0-18a2ba9211c5.gif" width="50%">
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 3.2 네비게이션 인터렉션 스크린샷
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66715905/113652397-ae803800-96ce-11eb-87f1-1fa4a5c66166.gif" width="50%">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 3.3 라우팅 및 라우팅 된 페이지 스크린샷
 
-### `yarn eject`
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66715905/113652120-2b5ee200-96ce-11eb-8d48-4d701da511e9.gif" width="50%">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### 3.4 웹사이트 구조 코드 스크린샷
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66715905/113652232-59dcbd00-96ce-11eb-98eb-e7e5d4ed287a.png" width="50%">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 4. 피드백 및 리뷰
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 4.1 잘한 점
 
-## Learn More
+- 리엑트 훅에 친숙해질 수 있었음
+- 리엑트 라우터를 사용해보고, 웹사이트의 라우팅 원리에 대해 이해할 수 있었음
+- POSTCSS를 활용한 CSS 모듈화 관리의 편리함을 경험할 수 있었음
+- 리엑트의 특징이라고 하는 싱글 페이지 웹사이트가 어떤 식으로 구성되는 지 이해할 수 있었음
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 4.2 아쉬운 점
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 레이아웃을 잡는 부분에서 부족함을 느꼈고, Flex 레이아웃에 대한 공부가 필요하다고 느낌
